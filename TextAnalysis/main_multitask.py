@@ -27,8 +27,8 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 import csv
 from importlib import import_module
 
-DATA_PATH = '/content/gdrive/My Drive/TextAnalysis/emobank.csv'
-EMBED_PATH = '/content/gdrive/My Drive/TextAnalysis/util/glove.6B.300d.txt'
+DATA_PATH = '/data/emobank.csv'
+EMBED_PATH = '/util/glove.6B.300d.txt'
 
 
 (train_X, train_yV,train_yA,train_yD), (val_X, val_yV,val_yA,val_yD), (test_X, test_yV,test_yA,test_yD) = load_data(
